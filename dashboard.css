@@ -1,0 +1,156 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Akronim&family=Nova+Slim&family=Short+Stack&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: "Nova Slim", system-ui; */
+    font-style: normal;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(221, 244, 248);
+}
+@media only screen and (max-width:780px){
+    #user_name{
+        display: none;
+    }
+    #profile1{
+        display: none;
+    }
+    #offcanvasNavbar{
+        width: 70%;
+    }
+    #top{
+        font-size: 14px;
+        color: blue;
+    }
+}
+@media only screen and (min-width:800px){
+    #offcanvasNavbar{
+        width: 18%;
+    }
+}
+
+/* #user_name{
+    font-size: 28px;
+    color: #fff;
+    background: linear-gradient(90deg, #f30101, green, rgb(0, 255, 242));
+    background: white;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 2px;
+    line-height: 1;
+    
+}
+.navbar{
+    height: 80px;
+    margin-top: -10px;
+} */
+#nav_btn1{
+    margin-top: -5px;
+    font-size: 25px;
+}
+#nav_btn2{
+    font-size: 18px;
+}
+
+#profile_img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+#profile_img2{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+#profileup{
+   text-align: center;
+   margin-top: -10px;
+}
+
+#logout_btn a{
+    color: #fffefe;
+    text-decoration: none;
+}
+.edit{
+    width: 220px;
+}
+
+
+
+
+.theme-toggle-btn{
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.theme-toggle-btn i.sun{
+    display: none;
+}
+.dark-theme .theme-toggle-btn i.sun{
+    display: inline;
+}
+.theme-toggle-btn i.moon{
+    display: inline;
+}
+.dark-theme .theme-toggle-btn i.moon{
+    display: none;
+}
+.dark-theme{
+    background-color: #333333;
+    color: #fff;
+}
+
+.dark-theme .icons{
+    background-color: gray;
+}
+.dropdown{
+    display: flex;
+}
+
+.bar{
+    border: none;
+    background: none;
+}
+
+
+.bar i{
+    
+    font-size: 25px;
+    margin-left: 20px;
+    color: rgb(5, 5, 5);
+}
+
+/* #offcanvasNavbar{
+    width: 20%;
+} */
+
+
+.head1{
+    background-color: rgb(217, 69, 69);
+    /* height: 45px; */
+}
+#top{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+}
+#top-card{
+    height: 130px;
+}
+
+.nav-item a{
+  /* font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px; */
+}
+
+.nav-link{
+    /* color: rgb(0, 179, 255); */
+}
+
+  
